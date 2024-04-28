@@ -1,0 +1,78 @@
+<style>
+root, a, button, p, div {
+    -webkit-user-select: none !important;
+}
+
+body {
+    background: -webkit-linear-gradient(
+    55deg,
+    #009785 0%,
+    #245aa5 50%,
+    #b800e9 100%
+    );
+    -webkit-touch-callout: none !important;
+}
+
+body.nr-dashboard-theme md-toolbar,
+body.nr-dashboard-theme md-content md-card {
+    background-color: transparent !important;
+    color: #FFFFFF;
+}
+
+ui-card-panel {
+    background-color: rgba(255,255,255,0.1) !important;
+    border-radius: 10px !important;
+}
+    
+#Homey_Dashboard_Navigation {
+    background-color: transparent !important;
+    border-radius: 10px !important;
+}
+
+.md-card.md-default-theme, md-card {
+    border-radius: 10px;
+}
+
+.nr-dashboard-switch.ng-scope {
+    background-color: rgba(255,255,255,.2) !important;
+}
+
+.nr-dashboard-switch.ng-scope:hover {
+    background-color: rgba(255,255,255,.5) !important;
+}
+
+.nr-dashboard-theme .nr-dashboard-button .md-button {
+    background-color: rgba(255,255,255,.2);
+}
+
+.md-button {
+    border-radius: 10px;
+}
+
+.nr-dashboard-cardpanel layout-column {
+    background-color: rgba(255,255,255,0.2) !important;
+    background-color: transparent !important;
+    border-radius: 10px !important;
+}
+
+.nr-dashboard-theme ui-card-panel {
+    border: none;
+}
+
+.nr-dashboard-template {
+    overflow-y: visible;
+}
+.nr-dashboard-theme md-content md-card {
+    background-color: transparent !important;
+}
+
+.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {
+    color: rgba(255, 255, 255, 0.5);
+}
+</style>
+
+<script>
+document.ontouchmove = function (e) {
+    e.preventDefault();
+}
+</script>
